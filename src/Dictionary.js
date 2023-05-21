@@ -28,7 +28,7 @@ export default function Dictionary() {
       <form onSubmit={search}>
         <input type="search" autoFocus={true} onChange={handleKeywordChange} />
       </form>
-      <Results results={results} />
+      <Results results={results} className="align-left" />
     </div>
   );
 }
