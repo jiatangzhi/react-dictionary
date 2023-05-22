@@ -1,4 +1,5 @@
 import React from "react";
+import "./Synonyms.js";
 
 export default function Synonyms(props) {
   <ul className="Synonyms">
