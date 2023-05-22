@@ -8,7 +8,7 @@ export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
   let [results, setResults] = useState(null);
   let [load, setLoaded] = useState(false);
-  let [photo, setPhotos] = useState(null);
+  let [photos, setPhotos] = useState(null);
 
   function handleDictionaryResponse(response) {
     setResults(response.data[0]);
@@ -65,6 +65,7 @@ export default function Dictionary() {
       </div>
     );
   } else {
-    return load();
+     load();
+     return "Loading...";
   }
 }
