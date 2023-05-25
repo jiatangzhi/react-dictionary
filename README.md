@@ -1,4 +1,4 @@
-### Visit on [React Dictionary](https://react-dictionary-jiatz.netlify.app)
+Visit on [React Dictionary](https://react-dictionary-jiatz.netlify.app)
 
 # Getting Started with Create React App
 
