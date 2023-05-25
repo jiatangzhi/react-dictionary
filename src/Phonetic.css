@@ -1,19 +1,19 @@
 :root {
-    --main-color:  rgb(189, 147, 228)
+    --main-color:  #7093f4;
 }
 
 .Phonetic {
     margin: 20px 0;;
 }
 .Phonetic a {
-    border: 2px solid #ddd;
+    border: 2px solid var(--main-color);
     color: var(--main-color);
     font-size: 12px;
     font-weight: bold;
     text-decoration: none;
     padding: 8px 15px;
     margin-right: 10px;
-    border-radius: 20px;
+    border-radius: 50px;
     transition: all 150ms ease-in-out;
 }
 .Phonetic a:hover {

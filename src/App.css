@@ -3,6 +3,13 @@ body {
 }
 a {
   color: #7093f4;
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+a:hover {
+  position: relative;
+  bottom: 2px;
+  font-weight: 700;
 }
 .App {
   padding: 60px 0 100px;
@@ -16,12 +23,5 @@ a {
   text-align: center;
   margin-top: 20px;
 }
-.App-footer a {
-  text-decoration: none;
-  transition: all 200ms ease-in-out;
-}
-.App-footer a:hover {
- position: relative;
- bottom: 2px;
- font-weight: 700;
-}
+
+

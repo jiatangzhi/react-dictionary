@@ -7,7 +7,9 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 .Dictionary input {
-    width: 100%;
+    width: 65%;
+    display: block;
+    margin: 0 auto;
     padding: 6px 10px;
     color: #333;
     border: 1px solid #ddd; 
@@ -16,6 +18,7 @@
 .Dictionary .hint {
     font-size: 11px;
     margin-top: 5px;
+    text-align: center;
 }
 .Dictionary .logo{
   max-width: 100px;
