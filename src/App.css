@@ -1,18 +1,27 @@
-body{
-  background: #f9f8fe;
+body {
+  background: #f8fdfe;
 }
 a {
-  color: #9670f4;
+  color: #7093f4;
 }
 .App {
   padding: 60px 0 100px;
   max-width: 700px;
   margin: 0 auto;
 }
-.App-header {
+/* .App-header {
   margin: 30px 0;
-}
+} */
 .App-footer {
   text-align: center;
   margin-top: 20px;
+}
+.App-footer a {
+  text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+.App-footer a:hover {
+ position: relative;
+ bottom: 2px;
+ font-weight: 700;
 }

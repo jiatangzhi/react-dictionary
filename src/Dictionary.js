@@ -3,6 +3,7 @@ import axios from "axios";
 import Results from "./Results";
 import Photos from "./Photos";
 import "./Dictionary.css";
+import logo from "./logo.png";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
@@ -26,7 +27,7 @@ export default function Dictionary() {
     let pexelsApiKey =
     "oN6RT35nU92xzrDyjneGcJLcKZCcvZq8m9WUbdskwHnarJr6dnXLM1Na";
     let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${keyword}&per_page=9`;
-    let headers = { Authorization: `Bearer ${pexelsApiKey}` };
+    let headers = { Authorization: `${pexelsApiKey}` };
     axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
   }
 
@@ -48,6 +49,12 @@ export default function Dictionary() {
     return (
       <div className="Dictionary">
         <section>
+          <img
+            src={logo}
+            alt="Dictionary logo"
+            className="logo img-fluid"
+          />
+          <h1 className="text-center dictionary-name">Dictionary</h1>
           <form onSubmit={handleSubmit}>
             <input
               type="search"
@@ -57,7 +64,7 @@ export default function Dictionary() {
             />
           </form>
           <div className="hint">
-            Suggested keywords: sunset, wine, table, plant...
+            Suggested keywords: sunset, wine, goose, pillow...
           </div>
         </section>
         <Results results={results} />

@@ -6,7 +6,6 @@
   border-radius: 8px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
-
 .Dictionary input {
     width: 100%;
     padding: 6px 10px;
@@ -14,8 +13,15 @@
     border: 1px solid #ddd; 
     border-radius: 8px;
 }
-
 .Dictionary .hint {
     font-size: 11px;
     margin-top: 5px;
+}
+.Dictionary .logo{
+  max-width: 100px;
+  display: block;
+  margin: 20px auto;
+}
+.Dictionary h1{
+  margin-bottom: 40px;
 }
