@@ -1,8 +1,11 @@
+:root {
+    --main-color:  #7093f4;
+}
 body {
   background: #f8fdfe;
 }
 a {
-  color: #7093f4;
+  color: var(--main-color);
   text-decoration: none;
   transition: all 200ms ease-in-out;
 }
